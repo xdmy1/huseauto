@@ -86,11 +86,11 @@ async function loadCatalog() {
     if (window.__catalog) return window.__catalog;
     
     try {
-        // Try relative path first (works for local development)
+        // Try relative path first (works for GitHub Pages)
         const response = await fetch('assets/catalog.json');
         if (!response.ok) {
-            // Fallback for server deployment
-            const response2 = await fetch('/assets/catalog.json');
+            // Fallback with dot prefix
+            const response2 = await fetch('./assets/catalog.json');
             window.__catalog = await response2.json();
         } else {
             window.__catalog = await response.json();
