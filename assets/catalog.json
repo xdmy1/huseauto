@@ -2541,7 +2541,7 @@
     {
       "id": "tesla",
       "name": "Tesla",
-      "logo": "assets/logos/tesla.svg",
+      "logo": "assets/logos/Tesla.svg",
       "models": [
         {
           "name": "Model S",
