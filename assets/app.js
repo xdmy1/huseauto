@@ -416,8 +416,21 @@ function populateYears(brand, modelName) {
 
     yearSelect.innerHTML = '<option value="">Selectează anul</option>';
     
+    // Parse year range (e.g., "2000-2025")
+    let years = [];
+    if (model.years && typeof model.years === 'string') {
+        const yearRange = model.years.split('-');
+        if (yearRange.length === 2) {
+            const startYear = parseInt(yearRange[0]);
+            const endYear = parseInt(yearRange[1]);
+            for (let year = startYear; year <= endYear; year++) {
+                years.push(year);
+            }
+        }
+    }
+    
     // Sort years in descending order
-    const sortedYears = [...model.years].sort((a, b) => b - a);
+    const sortedYears = years.sort((a, b) => b - a);
     
     sortedYears.forEach(year => {
         const option = document.createElement('option');
@@ -428,7 +441,7 @@ function populateYears(brand, modelName) {
 
     // Set selected value from URL or localStorage
     const selected = getSelected();
-    if (selected.year && model.years.includes(parseInt(selected.year))) {
+    if (selected.year && years.includes(parseInt(selected.year))) {
         yearSelect.value = selected.year;
     }
 
@@ -439,7 +452,6 @@ function populateYears(brand, modelName) {
 
 // Products page functions
 function initProductsPage() {
-    const params = getUrlParams();
     const selected = getSelected();
     
     // Check if all required selections are made
@@ -528,7 +540,21 @@ function populateProductYears(brand, modelName, selectedYear) {
 
     yearSelect.innerHTML = '<option value="">Selectează anul</option>';
     
-    const sortedYears = [...model.years].sort((a, b) => b - a);
+    // Parse year range (e.g., "2000-2025")
+    let years = [];
+    if (model.years && typeof model.years === 'string') {
+        const yearRange = model.years.split('-');
+        if (yearRange.length === 2) {
+            const startYear = parseInt(yearRange[0]);
+            const endYear = parseInt(yearRange[1]);
+            for (let year = startYear; year <= endYear; year++) {
+                years.push(year);
+            }
+        }
+    }
+    
+    // Sort years in descending order
+    const sortedYears = years.sort((a, b) => b - a);
     
     sortedYears.forEach(year => {
         const option = document.createElement('option');
@@ -620,9 +646,14 @@ function renderProductGroups() {
             title.className = 'text-xs md:text-sm text-slate-600';
             title.textContent = product.title;
             
+            const price = document.createElement('div');
+            price.className = 'text-lg md:text-xl font-bold text-[#F7941E]';
+            price.textContent = `${product.price} MDL`;
+            
             info.appendChild(color);
             info.appendChild(code);
             info.appendChild(title);
+            info.appendChild(price);
             
             productCard.appendChild(imageContainer);
             productCard.appendChild(info);

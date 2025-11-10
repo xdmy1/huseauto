@@ -5,10 +5,98 @@
       "name": "BMW",
       "logo": "assets/logos/BMW.svg",
       "models": [
-        { "name": "Seria 3", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Seria 5", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "X3", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "X5", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "1 (E81) hatchback 3 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "1 (E87) hatchback 5 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "1 (F20) hatchback 5 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "1 (F21) hatchback 3 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (E36) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (E46) sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (E46) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (E46) sedan (banchetă întreagă, scaune față sport)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (F30) sedan (spătar spate din 3 părți separate)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (E90) sedan – bancheta spate din 2 bucăți, scaune față sport",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (E90) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "5 (E34) sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "5 (E34) universal – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "5 (E34) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "5 (E39) sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "5 (E39) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "5 (E60) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "X1 (E84)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "X3 (E83)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (E46) universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "5 (E60) sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "5 (E61) universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "X2 (F39)",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -16,10 +104,110 @@
       "name": "Audi",
       "logo": "assets/logos/Audi-Logo_2016.svg",
       "models": [
-        { "name": "A4", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "A6", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Q5", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Q7", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "A1 (8X) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A3 (8L) hatchback 3 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A3 (8P) hatchback 3/5 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A3 (8V) sedan/hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "80 B3 (8A)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "80 B3 (8A)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "80 B4 (8C) – bancheta spate din 2 bucăți (",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A4 (B5) sedan – bancheta spate din 2 bucăți (",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A4 (B5) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A4 (B5) universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A4 (B6 / B7) sedan – bancheta spate din 2 bucăți (",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A4 (B6 / B7) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A4 (B8) sedan/universal – bancheta spate din 2 bucăți (",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A5 Coupe 2 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "100 Sedan /caroserie 45/ (C4)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "100 Sedan /caroserie 45/ (C4)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "100 universal /caroserie 45/ (C4)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A6 (C4) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A6 (C5) sedan – bancheta spate din 2 bucăți (",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A6 (C5) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A6 (C5) universal – bancheta spate din 2 bucăți (",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A6 (C6) sedan/universal – bancheta spate din 2 bucăți (",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A6 (C7) sedan/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Q3 (8U)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Q5",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Q5",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -27,10 +215,126 @@
       "name": "Mercedes-Benz",
       "logo": "assets/logos/Mercedes-Benz_free_logo.svg",
       "models": [
-        { "name": "C-Class", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "E-Class", "years": [2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "GLC", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "GLE", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "A-Class (W168)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A-Class (W168)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "A-Class (W169)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "B-Class (W245)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Class (W201)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Class (W202) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Class (W203) sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Class (W203) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Class (W204) sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Class (W204) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Class (W204) universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "E-Class (W124) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "E-Class (W124) universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "E-Class (W210) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "E-Class (W212) sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "E-Class (W212) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "GLK-Class (X204)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "SLK-Class (R171) AMG",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sprinter (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sprinter (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sprinter (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sprinter III (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Viano (W639) 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Viano (W639) 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vito (W638) 3 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vito (W638) 6 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vito (W638) 8 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vito (W639) 8 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vito III (W447) 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vito III (W447) 8 locuri",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -38,10 +342,198 @@
       "name": "Toyota",
       "logo": "assets/logos/toyota.svg",
       "models": [
-        { "name": "Camry", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Corolla", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "RAV4", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Highlander", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Auris I hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Auris II hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Avensis I sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Avensis II sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Avensis II sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Avensis II universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Aqua (volan dreapta) facelift",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Avensis III sedan/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Camry XV30 sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Camry XV40 sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Camry XV50 / XV55 sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Camry XV70 sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-HR I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Corolla (E120, E130) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Corolla (E120, E130) hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Corolla (E140, E150) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Corolla (E160, E170, E180) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Corolla (E210) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Corolla (E210) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Fortuner II (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Highlander I (spatele 40%)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Highlander I (spatele 60%)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Highlander II (U40)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Hilux VII",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Hilux VIII",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Land Cruiser 80",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Land Cruiser Prado 90",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Land Cruiser 100",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Land Cruiser 105",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Land Cruiser 200",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Land Cruiser 300 Elegance (5 locuri, fără airbaguri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Land Cruiser Prado 120 (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Land Cruiser Prado 150 (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Land Cruiser Prado 150 facelift 2",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Matrix / Pontiac Vibe",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Prius II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Prius III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "ProAce II (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "RAV4 (XA10)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "RAV4 (XA20)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "RAV4 (XA30)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "RAV4 (XA40)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "RAV4 (XA50)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Verso I (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Verso I (7 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Voxy III (R80)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Yaris II hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Yaris II sedan",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -49,10 +541,154 @@
       "name": "Ford",
       "logo": "assets/logos/Ford_logo_flat.svg",
       "models": [
-        { "name": "Focus", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018] },
-        { "name": "Fusion", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-        { "name": "Escape", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Explorer", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] }
+        {
+          "name": "C-Max I monovolum",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Max II Grand monovolum 5 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "EcoSport facelift",
+          "years": "2000-2025"
+        },
+        {
+          "name": "EcoSport",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Escape I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Escape II – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Escape III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Explorer IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Explorer V",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Fiesta V hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Fiesta VI sedan/hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Focus I sedan/hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Focus II Comfort sedan/hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Focus II Ghia / Titanium sedan/hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Focus III Ambiente / Trend sedan/hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Focus III Sport / Titanium sedan/hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Focus IV universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Fusion hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Galaxy I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Galaxy II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ka I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kuga I Titanium",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kuga II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Mondeo III sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Mondeo III universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Mondeo IV sedan/hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Mondeo IV Titanium sedan/hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Mondeo V Titanium",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ranger II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "S-Max I monovolum",
+          "years": "2000-2025"
+        },
+        {
+          "name": "S-Max II monovolum",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tourneo I (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tourneo I (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Transit VII (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Transit VII (9 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Transit VIII (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Transit VIII (9 locuri)",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -60,10 +696,262 @@
       "name": "Volkswagen",
       "logo": "assets/logos/Volkswagen_logo_2019.svg",
       "models": [
-        { "name": "Jetta", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-        { "name": "Passat", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-        { "name": "Tiguan", "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Atlas", "years": [2018, 2019, 2020, 2021] }
+        {
+          "name": "Amarok I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Beetle I (A4)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Caddy III (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Caddy III (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Caddy IV (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Crafter (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Crafter (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Crafter II (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Golf III hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Golf IV / Bora",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Golf VII hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Golf VII universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Golf Plus",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Jetta V sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Jetta VI",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Jetta VI Life",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Jetta VII (Origin / Respect)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Passat B3–B4 sedan/universal – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Passat B3–B4 sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Passat B5–B5+ sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Passat B5–B5+ universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Passat B6–B7 Trendline sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Passat B6–B7 Trendline universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Passat B6–B7 Sportline/Comfortline sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Passat B6–B7 Sportline/Comfortline universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Passat B8 Comfortline sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Passat B8 Comfortline universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Polo IV hatchback – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Polo sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Polo sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Polo hatchback – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Polo",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Polo hatchback (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sharan I (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sharan I (7 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sharan I facelift (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sharan I facelift (7 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T4 (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T4 (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T4 (8 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T4 (9 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T4 Multivan (7 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T5 (2 locuri) pre-facelift",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T5 (3 locuri) pre-facelift",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T5 (8 locuri) pre-facelift",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T5 (9 locuri) pre-facelift",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T5/T6 facelift (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T5/T6 facelift (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T5/T6 facelift (8 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T5/T6 facelift (9 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T5/T6 Multivan (7 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "T7 Multivan (7 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Taos I (cu cotieră spate)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Taos I (fără cotieră spate)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiguan I (cu măsuțe)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiguan II Comfortline / Highline (cu sau fără măsuțe, spătar spate transformabil)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiguan II Trendline (fără măsuțe, scaune față identice)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Touareg I (spătar spate 40%)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Touareg I facelift (spătar spate 60%)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Touareg II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Touran I / II Trendline",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Touran I / II Highline (7 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Touran I / II Highline",
+          "years": "2000-2025"
+        },
+        {
+          "name": "LT (3 locuri)",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -71,10 +959,94 @@
       "name": "Chevrolet",
       "logo": "assets/logos/Chevrolet 1.svg",
       "models": [
-        { "name": "Cruze", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-        { "name": "Malibu", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Equinox", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Tahoe", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Aveo hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Aveo sedan 2003–2012 / Ravon Nexia R3",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Aveo sedan/hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Captiva / Opel Antara",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Captiva II 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Cobalt",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Cruze sedan/hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lanos / Daewoo Lanos (Sens) / ZAZ Chance",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Malibu IX",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Malibu VIII",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Niva",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Niva",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Niva",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Orlando 5 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Orlando 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Orlando 5 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Orlando 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rezzo",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Spark II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Spark III 2010–2016 și",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tracker III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "TrailBlazer II",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -82,10 +1054,46 @@
       "name": "Fiat",
       "logo": "assets/logos/Fiat_(logo).svg",
       "models": [
-        { "name": "500", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-        { "name": "500X", "years": [2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Panda", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Tipo", "years": [2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Albea (Base) sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Albea (Classic) sedan – bancheta spate din 2 bucăți (tetiere simple)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Albea (Comfort) sedan – bancheta spate din 2 bucăți (tetiere în formă de „L”)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Bravo II (198) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Doblo I / II 5 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ducato II (X244) 3 locuri (facelift)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ducato III (X250) 3 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Scudo II 8 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Scudo II 9 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sedici",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -93,10 +1101,34 @@
       "name": "Volvo",
       "logo": "assets/logos/volvo.svg",
       "models": [
-        { "name": "S60", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-        { "name": "XC60", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "XC90", "years": [2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "V40", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+        {
+          "name": "C30",
+          "years": "2000-2025"
+        },
+        {
+          "name": "S40 I sedan facelift",
+          "years": "2000-2025"
+        },
+        {
+          "name": "S40 II sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "S60 II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "V40 Cross Country",
+          "years": "2000-2025"
+        },
+        {
+          "name": "XC40 I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "XC60 I",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -104,10 +1136,22 @@
       "name": "Jeep",
       "logo": "assets/logos/Jeep_logo.svg",
       "models": [
-        { "name": "Cherokee", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Grand Cherokee", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Wrangler", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Compass", "years": [2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Cherokee",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Grand Cherokee",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Wrangler",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Compass",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -115,10 +1159,30 @@
       "name": "Land Rover",
       "logo": "assets/logos/Land_Rover_logo_black_1.svg",
       "models": [
-        { "name": "Discovery", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Range Rover", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Range Rover Sport", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Evoque", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] }
+        {
+          "name": "Rover Freelander II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rover Freelander II facelift",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rover Discovery III / IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rover Discovery III / IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rover Discovery Sport fără cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rover Discovery Sport cu cotieră spate",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -126,10 +1190,22 @@
       "name": "Alfa Romeo",
       "logo": "assets/logos/Romeo_Logo.svg",
       "models": [
-        { "name": "Giulia", "years": [2017, 2018, 2019, 2020, 2021] },
-        { "name": "Stelvio", "years": [2018, 2019, 2020, 2021] },
-        { "name": "4C", "years": [2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Giulietta", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020] }
+        {
+          "name": "Giulia",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Stelvio",
+          "years": "2000-2025"
+        },
+        {
+          "name": "4C",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Giulietta",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -137,10 +1213,14 @@
       "name": "SEAT",
       "logo": "assets/logos/SEAT_Logo_from_2017.svg",
       "models": [
-        { "name": "Leon", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Ibiza", "years": [2017, 2018, 2019, 2020, 2021] },
-        { "name": "Ateca", "years": [2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Arona", "years": [2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Ibiza IV hatchback (5 uși) – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ibiza IV hatchback (5 uși) – banchetă întreagă",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -148,10 +1228,90 @@
       "name": "Opel",
       "logo": "assets/logos/Group.svg",
       "models": [
-        { "name": "Astra", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-        { "name": "Corsa", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Insignia", "years": [2017, 2018, 2019, 2020, 2021] },
-        { "name": "Crossland X", "years": [2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Antara",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Astra H sedan/hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Astra H universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Astra J sedan/hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Astra J universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Corsa D hatchback – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Corsa D hatchback (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Insignia I sedan/hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Insignia II hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Meriva I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Meriva II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Mokka",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vectra B sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vectra C sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vivaro A (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vivaro A (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vivaro A (8 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Vivaro A (9 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Zafira B 5 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Zafira C 5 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Zafira Life 8 locuri",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -159,10 +1319,162 @@
       "name": "Hyundai",
       "logo": "assets/logos/hyunday.svg",
       "models": [
-        { "name": "Elantra", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Sonata", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Tucson", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Santa Fe", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Accent",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Creta I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Creta II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Elantra III (XD) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Elantra IV (HD)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Elantra V (MD)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Elantra VI (AD)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Elantra VII (CN7)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Getz GL",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Getz GLS",
+          "years": "2000-2025"
+        },
+        {
+          "name": "H-1 8 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "H-1 9 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "H-1 Grand Starex 8–11 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "H-1 Grand Starex 9–12 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "i20 hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "i30 I hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "i30 II hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "i40 sedan/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "ix35",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Matrix",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Santa Fe I (Classic)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Santa Fe II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Santa Fe III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Solaris I hatchback / Kia Rio III hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Solaris I sedan / Kia Rio III sedan – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Solaris I sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Solaris II sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Solaris II sedan / Kia Rio IV sedan/hatchback (X-Line / X) – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sonata (EF)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sonata (NF)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sonata (YF)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sonata (DN8)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sonata (LF) 2014–2019 / Kia Optima IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Staria 8 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Terracan I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Trajet 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tucson I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tucson III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tucson IV – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -170,10 +1482,198 @@
       "name": "Kia",
       "logo": "assets/logos/KIA_logo3.svg",
       "models": [
-        { "name": "Optima", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Forte", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Sorento", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Sportage", "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Bongo III (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Carens I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Carnival IV 8 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Carens II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ceed I hatchback/universal 5 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ceed I hatchback 3 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ceed II hatchback 3 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ceed II hatchback/universal 5 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ceed III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ceed III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Cerato I hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Cerato I sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Cerato II Koup 2 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Cerato II sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Cerato III sedan (Classic)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Cerato IV GT Line sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Cerato IV sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Magentis II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Optima III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "K5",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Optima IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Picanto I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Picanto II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Picanto III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rio I universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rio I sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rio II hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rio II sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rio III hatchback / Hyundai Solaris I hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rio III sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rio IV sedan/hatchback (X-Line)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Seltos (spătar spate tip „cocoașe”)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Seltos (cu tetiere)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sorento I (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sorento II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sorento IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Soul I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Soul II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Soul III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Spectra",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sportage I – bancheta spate rabatabilă în mod egal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sportage I Grand – bancheta spate rabatabilă în mod egal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sportage II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sportage II (facelift)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sportage III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sportage IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sportage V",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Venga I",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -181,10 +1681,82 @@
       "name": "Honda",
       "logo": "assets/logos/honda.svg",
       "models": [
-        { "name": "Accord", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Civic", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "CR-V", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Pilot", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Accord VII sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Accord VIII sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Accord X sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Civic VII sedan (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Civic VII hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Civic VIII sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Civic VIII hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Civic IX sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Civic IX hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CR-V I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CR-V II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CR-V III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CR-V IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CR-V V",
+          "years": "2000-2025"
+        },
+        {
+          "name": "HR-V 5 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pilot II 5 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pilot II 8 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Jazz I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Element I facelift 2 (YH)",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -192,10 +1764,126 @@
       "name": "Nissan",
       "logo": "assets/logos/Nissan_2020_logo.svg",
       "models": [
-        { "name": "Altima", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Sentra", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Rogue", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Murano", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Almera Classic (spătar spate tip „cocoașe”)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Almera Classic (cu tetiere)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Almera III (G15) – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Almera III (G15) (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Almera N16 sedan/hatchback (5 uși)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Elgrand I (E50)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Juke I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Micra III (K12) – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Micra III (K12) (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Navara III (D40)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Note",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pathfinder III (spătar pasager transformabil)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pathfinder III (spătare față identice)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Patrol (Y61)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Primastar 8 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Primera P12 sedan/hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Qashqai I (J10)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Qashqai I +2 (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Qashqai I +2 (7 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Qashqai II (J11)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rogue III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sentra VII (B17)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Terrano III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Terrano III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiida (C11) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiida (C11) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiida (C13) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "X-Trail T30",
+          "years": "2000-2025"
+        },
+        {
+          "name": "X-Trail T31",
+          "years": "2000-2025"
+        },
+        {
+          "name": "X-Trail T32",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -203,9 +1891,18 @@
       "name": "Lexus",
       "logo": "assets/logos/lexus.svg",
       "models": [
-        { "name": "ES", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "RX", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "NX", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "ES",
+          "years": "2000-2025"
+        },
+        {
+          "name": "RX",
+          "years": "2000-2025"
+        },
+        {
+          "name": "NX",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -213,10 +1910,94 @@
       "name": "Mazda",
       "logo": "assets/logos/image 257.svg",
       "models": [
-        { "name": "Mazda3", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Mazda6", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018] },
-        { "name": "CX-5", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "CX-9", "years": [2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "3 (BK) sedan/hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (BL) sedan/hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (BM) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (BM) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3 (BP) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "5 II (CR) 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "6 (GG) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "6 (GG) hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "6 (GH) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "6 (GH) hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "6 (GJ) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "6 (GJ) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CX-5 (trei scaune separate) – echipări Touring, Active, Supreme",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CX-5 – bancheta spate din 2 bucăți – echipări Direct, Drive",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CX-5 II – echipări Active, Supreme",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CX-5 II – echipare Drive",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CX-30",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CX-7",
+          "years": "2000-2025"
+        },
+        {
+          "name": "BT-50 / Ford Ranger II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "MPV II 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "626",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tribute I",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -224,10 +2005,26 @@
       "name": "Subaru",
       "logo": "assets/logos/subaru.svg",
       "models": [
-        { "name": "Outback", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Forester", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Impreza", "years": [2017, 2018, 2019, 2020, 2021] },
-        { "name": "Legacy", "years": [2015, 2016, 2017, 2018, 2019, 2020] }
+        {
+          "name": "Forester II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Forester III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Forester IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Impreza III sedan/hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "XV I",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -235,10 +2032,142 @@
       "name": "Mitsubishi",
       "logo": "assets/logos/mitsubishi.svg",
       "models": [
-        { "name": "Outlander", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Eclipse Cross", "years": [2018, 2019, 2020, 2021] },
-        { "name": "Lancer", "years": [2014, 2015, 2016, 2017] },
-        { "name": "ASX", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020] }
+        {
+          "name": "ASX",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Carisma hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Carisma sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Colt",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Eclipse Cross",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Eclipse III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Galant IX",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Galant VIII",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Grandis 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "L200 IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "L200 IV facelift",
+          "years": "2000-2025"
+        },
+        {
+          "name": "L200 V",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer VIII sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer IX sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer IX sedan (motor 2.0L)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer IX universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer IX universal (motor 2.0L)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer X sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer X sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer X hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer X hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer X sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Lancer X sedan (motor 2.0L, fără aripioare laterale)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Montero Sport",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Outlander I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Outlander XL",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Outlander III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pajero II (3 uși)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pajero III–IV (3 uși)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pajero III–IV (5 uși)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pajero Sport I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pajero Sport II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pajero Sport II facelift",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Pajero Sport III",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -246,10 +2175,22 @@
       "name": "Škoda",
       "logo": "assets/logos/skoda.svg",
       "models": [
-        { "name": "Octavia", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Superb", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Kodiaq", "years": [2017, 2018, 2019, 2020, 2021] },
-        { "name": "Karoq", "years": [2018, 2019, 2020, 2021] }
+        {
+          "name": "Octavia",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kodiaq",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Karoq",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -257,10 +2198,154 @@
       "name": "Renault",
       "logo": "assets/logos/Renault.svg",
       "models": [
-        { "name": "Clio", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Megane", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-        { "name": "Captur", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Kadjar", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Arkana",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Dokker – bancheta spate din 2 bucăți (5 locuri, cu airbaguri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Duster – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Duster I facelift – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Duster I facelift (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Duster II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Fluence – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Fluence (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kangoo I (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kangoo II (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kangoo II (5 locuri, spătar pasager simplu)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kangoo II (5 locuri, echipare completă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kaptur I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Koleos I (spătar pasager simplu)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Koleos I (spătar pasager transformabil)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Laguna II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Logan I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Logan II (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Logan II / Sandero II – bancheta spate din 2 bucăți (fără airbaguri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Master (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Master III (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Megane I (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Megane II Classic – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Megane II Classic (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Megane II Extreme – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Megane II Extreme (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sandero I – bancheta spate din 2 bucăți 2009–2014 / Duster 2011–2015 / Nissan Terrano III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sandero I (banchetă întreagă) 2009–2014 / Duster 2011–2015 / Nissan Terrano III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Sandero II / Logan II (cu airbaguri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Scenic II (5 locuri, echipare simplă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Scenic II Grand/Lux (5 locuri, echipare completă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Scenic III (5 locuri, echipare simplă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Scenic III Grand/Lux (5 locuri, echipare completă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Symbol sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Trafic X83 / Opel Vivaro A / Nissan Primastar (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Trafic X83 / Opel Vivaro A / Nissan Primastar (8 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Trafic X83 / Opel Vivaro A / Nissan Primastar (9 locuri)",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -268,10 +2353,46 @@
       "name": "Haval",
       "logo": "assets/logos/Haval.svg",
       "models": [
-        { "name": "H6", "years": [2017, 2018, 2019, 2020, 2021] },
-        { "name": "F7", "years": [2019, 2020, 2021] },
-        { "name": "H9", "years": [2018, 2019, 2020, 2021] },
-        { "name": "Jolion", "years": [2020, 2021] }
+        {
+          "name": "Dargo / X",
+          "years": "2000-2025"
+        },
+        {
+          "name": "F7 I / F7x",
+          "years": "2000-2025"
+        },
+        {
+          "name": "F7 II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "H3 I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "H6 I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "H9 I (Comfort)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "H9 II (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "H9 II (7 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Jolion I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "M6 II",
+          "years": "2000-2025"
+        }
       ]
     },
     {
@@ -279,456 +2400,1353 @@
       "name": "Mini Cooper",
       "logo": "assets/logos/mini-cooper.svg",
       "models": [
-        { "name": "Cooper", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Cooper S", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
-        { "name": "Countryman", "years": [2017, 2018, 2019, 2020, 2021] },
-        { "name": "Clubman", "years": [2016, 2017, 2018, 2019, 2020, 2021] }
+        {
+          "name": "Cooper",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Cooper S",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Countryman",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Clubman",
+          "years": "2000-2025"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "logo": "assets/logos/tesla.svg",
+      "models": [
+        {
+          "name": "Model S",
+          "years": "2000-2025"
+        }
+      ]
+    },
+    {
+      "id": "dodge",
+      "name": "DODGE",
+      "logo": "assets/logos/dodge.svg",
+      "models": [
+        {
+          "name": "Caliber",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Caravan 7 locuri (versiune office)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Caravan IV 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Grand Caravan V 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Stratus II",
+          "years": "2000-2025"
+        }
+      ]
+    },
+    {
+      "id": "citroën",
+      "name": "Citroën",
+      "logo": "assets/logos/citroën.svg",
+      "models": [
+        {
+          "name": "C4 hatchback 3 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C4 hatchback 5 uși",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C4 hatchback II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C4 sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C4 Aircross",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C5 (echipare completă, cu cotieră)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C5 (echipare simplă, fără cotieră)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Crosser",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Elysée / Peugeot 301 – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "C-Elysée / Peugeot 301 – banchetă întreagă",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Berlingo I (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Berlingo I (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Berlingo II (2 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Berlingo II (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Jumper (3 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Jumpy II (8 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "SpaceTourer I (8 locuri)",
+          "years": "2000-2025"
+        }
+      ]
+    },
+    {
+      "id": "peugeot",
+      "name": "PEUGEOT",
+      "logo": "assets/logos/peugeot.svg",
+      "models": [
+        {
+          "name": "107",
+          "years": "2000-2025"
+        },
+        {
+          "name": "206 sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "206 hatchback 5 uși – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "207 hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3008 I (echipare completă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "3008 I (echipare simplă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "301",
+          "years": "2000-2025"
+        },
+        {
+          "name": "307 hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "307 universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "308 I hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "308 universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "4007",
+          "years": "2000-2025"
+        },
+        {
+          "name": "4008",
+          "years": "2000-2025"
+        },
+        {
+          "name": "406 sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "408 I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "508 I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Boxer",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Expert 8 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Partner Origin / Citroën Berlingo I 5 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Partner Original / Citroën Berlingo I 2 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Partner Tepee / Citroën Berlingo II 2 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Partner Tepee / Citroën Berlingo II 3 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Partner Tepee / Citroën Berlingo II 5 locuri – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Partner Tepee Family / Citroën Berlingo II / Opel Combo (PCMA) – trei scaune separate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Traveller I / Citroën SpaceTourer I / Opel Zafira Life 8 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Traveller I / Citroën SpaceTourer I 7 locuri",
+          "years": "2000-2025"
+        }
+      ]
+    },
+    {
+      "id": "suzuki",
+      "name": "Suzuki",
+      "logo": "assets/logos/suzuki.svg",
+      "models": [
+        {
+          "name": "Grand Vitara II (3 uși)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Grand Vitara II (5 uși)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Grand Vitara III (3 uși)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Grand Vitara III (5 uși)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "SX4 I hatchback – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "SX4 I facelift hatchback – banchetă întreagă",
+          "years": "2000-2025"
+        },
+        {
+          "name": "SX4 sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "SX4 II hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Jimny III",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Jimny IV",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ignis I (bancheta spate 50/50)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Ignis II (bancheta spate din 2 bucăți)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Liana sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Liana universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Splash I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Swift III hatchback",
+          "years": "2000-2025"
+        }
+      ]
+    },
+    {
+      "id": "geely",
+      "name": "Geely",
+      "logo": "assets/logos/geely.svg",
+      "models": [
+        {
+          "name": "Atlas I",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Atlas Pro",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Coolray I (versiunea pre-facelift) 2020–2023 / Belgee X50",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Coolray I (facelift)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Emgrand EC7 sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Emgrand II",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Emgrand X7",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Emgrand X7 (facelift)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "FC (Vision) sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "MK Cross hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "MK sedan",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Monjaro I (versiunea pre-facelift)",
+          "years": "2000-2025"
+        }
+      ]
+    },
+    {
+      "id": "škoda",
+      "name": "Škoda",
+      "logo": "assets/logos/škoda.svg",
+      "models": [
+        {
+          "name": "Fabia I sedan/hatchback/universal – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Fabia II hatchback (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Fabia II hatchback/universal – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Fabia II Sport (RS) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Karoq (Active) fără cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Karoq (Ambition) fără cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Karoq (Style) cu cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kodiaq (Active) fără cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kodiaq (Ambition, Scout) cu cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kodiaq (Style) cu cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A5 Ambiente (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A5 Elegance hatchback/universal – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A7 Ambiente hatchback/universal fără cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A7 Elegance hatchback/universal cu cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A7 RS hatchback/universal (scaune față sport)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A8 (Active, Ambition)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A8 RS hatchback/universal (scaune față sport)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia Tour hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia Tour Sport hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rapid (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rapid I/II – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rapid I/II – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rapid I/II Sport",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rapid I/II Sport",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Roomster",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb II (Elegance) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb II (Ambition) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb II facelift hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb III (Active) (spătar pasager transformabil)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb III (Active) (spătare față identice)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb III (Ambition, Style) (spătar pasager transformabil)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb III (Ambition, Style) (spătare față identice)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Yeti (spătar pasager transformabil)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Yeti (spătare față identice)",
+          "years": "2000-2025"
+        }
+      ]
+    },
+    {
+      "id": "chery",
+      "name": "Chery",
+      "logo": "assets/logos/chery.svg",
+      "models": [
+        {
+          "name": "Amulet (A15)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "QQ6 (S21)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Bonus (A13)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "CrossEastar (B14) 7 locuri",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Fora (A21)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kimo (A1)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiggo T11 – bancheta spate rabatabilă în mod egal (50/50)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiggo T11 (FL) – bancheta spate din 2 bucăți / Vortex Tingo",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiggo 5 (versiunea pre-facelift)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiggo 4 / Pro",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiggo 4 I (facelift 2)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiggo 7 / Pro / ProMax",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiggo 8 Pro (5 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiggo 8 Pro (7 locuri)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Tiggo 8 ProMax I (facelift) Dreamline",
+          "years": "2000-2025"
+        }
       ]
     }
   ],
   "productGroups": [
-    { "id": "eco_alc", "title": "Huse Eco Piele+Alcantara" },
-    { "id": "eco", "title": "Huse Eco Piele" },
-    { "id": "eco_romb", "title": "Huse Eco Piele (Romb)" },
-    { "id": "alc_romb", "title": "Huse Alcantara (Romb)" },
-    { "id": "covorase_3d", "title": "Covorașe 3D" },
-    { "id": "covorase_linie", "title": "Covorașe Linie" },
-    { "id": "covorase_linie_alc", "title": "Covorașe Linie + Alcantara" },
-    { "id": "covorase_romb", "title": "Covorașe Romb" },
-    { "id": "covorase_romb_alc", "title": "Covorașe Romb + Alcantara" }
+    {
+      "id": "eco_alc",
+      "title": "Huse Eco Piele+Alcantara"
+    },
+    {
+      "id": "eco",
+      "title": "Huse Eco Piele"
+    },
+    {
+      "id": "eco_romb",
+      "title": "Huse Eco Piele (Romb)"
+    },
+    {
+      "id": "alc_romb",
+      "title": "Huse Alcantara (Romb)"
+    },
+    {
+      "id": "covorase_3d",
+      "title": "Covorașe 3D"
+    },
+    {
+      "id": "covorase_linie",
+      "title": "Covorașe Linie"
+    },
+    {
+      "id": "covorase_linie_alc",
+      "title": "Covorașe Linie + Alcantara"
+    },
+    {
+      "id": "covorase_romb",
+      "title": "Covorașe Romb"
+    },
+    {
+      "id": "covorase_romb_alc",
+      "title": "Covorașe Romb + Alcantara"
+    }
   ],
   "products": [
     {
-      "id": "ALC-R1",
-      "groupId": "alc_romb",
-      "title": "Husa Alcantara (Romb)",
-      "code": "ALC-R1",
-      "color": "Negru + Negru",
-      "price": 4300,
-      "image": "assets/img/alc-romb-negru.png"
-    },
-    {
-      "id": "ALC-R2",
-      "groupId": "alc_romb",
-      "title": "Husa Alcantara (Romb)",
-      "code": "ALC-R2",
-      "color": "Negru + Roșu",
-      "price": 4300,
-      "image": "assets/img/alc-romb-negru-rosu.png"
-    },
-    {
-      "id": "ALC-R3",
-      "groupId": "alc_romb",
-      "title": "Husa Alcantara (Romb)",
-      "code": "ALC-R3",
-      "color": "Negru + Albastru",
-      "price": 4300,
-      "image": "assets/img/alc-romb-negru-albastru.png"
-    },
-    {
-      "id": "ALC-R4",
-      "groupId": "alc_romb",
-      "title": "Husa Alcantara (Romb)",
-      "code": "ALC-R4",
-      "color": "Gri + Negru",
-      "price": 4300,
-      "image": "assets/img/alc-romb-gri-negru.png"
-    },
-    {
-      "id": "ALC-R5",
-      "groupId": "alc_romb",
-      "title": "Husa Alcantara (Romb)",
-      "code": "ALC-R5",
-      "color": "Bej + Maro",
-      "price": 4300,
-      "image": "assets/img/alc-romb-bej-maro.png"
-    },
-    {
-      "id": "ALC-R6",
-      "groupId": "alc_romb",
-      "title": "Husa Alcantara (Romb)",
-      "code": "ALC-R6",
-      "color": "Alb + Negru",
-      "price": 4300,
-      "image": "assets/img/alc-romb-alb-negru.png"
-    },
-    {
-      "id": "ECO-R1",
-      "groupId": "eco_romb",
-      "title": "Husa Eco Piele (Romb)",
-      "code": "ECO-R1",
-      "color": "Negru + Negru",
-      "price": 3800,
-      "image": "assets/img/eco-romb-negru.png"
-    },
-    {
-      "id": "ECO-R2",
-      "groupId": "eco_romb",
-      "title": "Husa Eco Piele (Romb)",
-      "code": "ECO-R2",
-      "color": "Negru + Bej",
-      "price": 3800,
-      "image": "assets/img/eco-romb-negru-bej.png"
-    },
-    {
-      "id": "ECO-R3",
-      "groupId": "eco_romb",
-      "title": "Husa Eco Piele (Romb)",
-      "code": "ECO-R3",
-      "color": "Negru + Roșu",
-      "price": 3800,
-      "image": "assets/img/eco-romb-negru-rosu.png"
-    },
-    {
-      "id": "ECO-R4",
-      "groupId": "eco_romb",
-      "title": "Husa Eco Piele (Romb)",
-      "code": "ECO-R4",
-      "color": "Gri + Negru",
-      "price": 3800,
-      "image": "assets/img/eco-romb-gri-negru.png"
-    },
-    {
-      "id": "ECO-R5",
-      "groupId": "eco_romb",
-      "title": "Husa Eco Piele (Romb)",
-      "code": "ECO-R5",
-      "color": "Maro + Bej",
-      "price": 3800,
-      "image": "assets/img/eco-romb-maro-bej.png"
-    },
-    {
-      "id": "ECO-R6",
-      "groupId": "eco_romb",
-      "title": "Husa Eco Piele (Romb)",
-      "code": "ECO-R6",
-      "color": "Alb + Negru",
-      "price": 3800,
-      "image": "assets/img/eco-romb-alb-negru.png"
-    },
-    {
-      "id": "ECO-1",
+      "id": 1,
       "groupId": "eco",
-      "title": "Husa Eco Piele",
-      "code": "ECO-1",
+      "title": "Eco Piele",
+      "code": "EP01",
+      "color": "Negru Sur Inchis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_sur_inchis.png",
+      "description": "Huse auto din eco piele, culoare negru sur inchis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 2,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP02",
+      "color": "Bej Deschis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_bej_deschis.png",
+      "description": "Huse auto din eco piele, culoare bej deschis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 3,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP03",
+      "color": "Negru Alb",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_alb.png",
+      "description": "Huse auto din eco piele, culoare negru alb. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 4,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP04",
       "color": "Negru",
-      "price": 3200,
-      "image": "assets/img/eco-negru.png"
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru.png",
+      "description": "Huse auto din eco piele, culoare negru. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "ECO-2",
+      "id": 5,
       "groupId": "eco",
-      "title": "Husa Eco Piele",
-      "code": "ECO-2",
-      "color": "Negru + Bej",
-      "price": 3200,
-      "image": "assets/img/eco-negru-bej.png"
+      "title": "Eco Piele",
+      "code": "EP05",
+      "color": "Gri Deschis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_gri_deschis.png",
+      "description": "Huse auto din eco piele, culoare gri deschis. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "ECO-3",
+      "id": 6,
       "groupId": "eco",
-      "title": "Husa Eco Piele",
-      "code": "ECO-3",
-      "color": "Negru + Roșu",
-      "price": 3200,
-      "image": "assets/img/eco-negru-rosu.png"
+      "title": "Eco Piele",
+      "code": "EP06",
+      "color": "Negru Bej Inchis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_bej_inchis.png",
+      "description": "Huse auto din eco piele, culoare negru bej inchis. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "ECO-4",
+      "id": 7,
       "groupId": "eco",
-      "title": "Husa Eco Piele",
-      "code": "ECO-4",
-      "color": "Gri",
-      "price": 3200,
-      "image": "assets/img/eco-gri.png"
+      "title": "Eco Piele",
+      "code": "EP07",
+      "color": "Negru Rosu",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_rosu.png",
+      "description": "Huse auto din eco piele, culoare negru rosu. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "ECO-5",
+      "id": 8,
       "groupId": "eco",
-      "title": "Husa Eco Piele",
-      "code": "ECO-5",
-      "color": "Maro",
-      "price": 3200,
-      "image": "assets/img/eco-maro.png"
+      "title": "Eco Piele",
+      "code": "EP08",
+      "color": "Negru Bordo",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_bordo.png",
+      "description": "Huse auto din eco piele, culoare negru bordo. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "ECO-6",
+      "id": 9,
       "groupId": "eco",
-      "title": "Husa Eco Piele",
-      "code": "ECO-6",
-      "color": "Bej",
-      "price": 3200,
-      "image": "assets/img/eco-bej.png"
+      "title": "Eco Piele",
+      "code": "EP09",
+      "color": "Ciocolata",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_ciocolata.png",
+      "description": "Huse auto din eco piele, culoare ciocolata. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "ECO-7",
+      "id": 10,
       "groupId": "eco",
-      "title": "Husa Eco Piele",
-      "code": "ECO-7",
-      "color": "Alb + Negru",
-      "price": 3200,
-      "image": "assets/img/eco-alb-negru.png"
+      "title": "Eco Piele",
+      "code": "EP10",
+      "color": "Bej Inchis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_bej_inchis.png",
+      "description": "Huse auto din eco piele, culoare bej inchis. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "ECO-8",
+      "id": 11,
       "groupId": "eco",
-      "title": "Husa Eco Piele",
-      "code": "ECO-8",
-      "color": "Negru + Gri",
-      "price": 3200,
-      "image": "assets/img/eco-negru-gri.png"
+      "title": "Eco Piele",
+      "code": "EP11",
+      "color": "Oranj Negru",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_oranj_negru.png",
+      "description": "Huse auto din eco piele, culoare oranj negru. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "ECO-ALC-1",
+      "id": 12,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP12",
+      "color": "Maro Inchis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_maro_inchis.png",
+      "description": "Huse auto din eco piele, culoare maro inchis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 13,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP13",
+      "color": "Negru Sur Deschis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_sur_deschis.png",
+      "description": "Huse auto din eco piele, culoare negru sur deschis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 14,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP14",
+      "color": "Negru Albastru",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_albastru.png",
+      "description": "Huse auto din eco piele, culoare negru albastru. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 15,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP15",
+      "color": "Negru Oranj",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_oranj.png",
+      "description": "Huse auto din eco piele, culoare negru oranj. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 16,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP16",
+      "color": "Sur Negru",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_sur_negru.png",
+      "description": "Huse auto din eco piele, culoare sur negru. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 17,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP17",
+      "color": "Alb Negru",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_alb_negru.png",
+      "description": "Huse auto din eco piele, culoare alb negru. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 18,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP18",
+      "color": "Negru Maro Inchis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_maro_inchis.png",
+      "description": "Huse auto din eco piele, culoare negru maro inchis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 19,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP19",
+      "color": "Negru Maro Deschis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_maro_deschis.png",
+      "description": "Huse auto din eco piele, culoare negru maro deschis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 20,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP20",
+      "color": "Negru Ciocolata",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_ciocolata.png",
+      "description": "Huse auto din eco piele, culoare negru ciocolata. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 21,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP21",
+      "color": "Alb",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_alb.png",
+      "description": "Huse auto din eco piele, culoare alb. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 22,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP22",
+      "color": "Gri Inchis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_gri_inchis.png",
+      "description": "Huse auto din eco piele, culoare gri inchis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 23,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP23",
+      "color": "Negru Bej Deschis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_negru_bej_deschis.png",
+      "description": "Huse auto din eco piele, culoare negru bej deschis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 24,
+      "groupId": "eco",
+      "title": "Eco Piele",
+      "code": "EP24",
+      "color": "Maro Deschis",
+      "price": 850,
+      "image": "assets/catalogmasini/EcoPielepng/eco_piele_maro_deschis.png",
+      "description": "Huse auto din eco piele, culoare maro deschis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 25,
       "groupId": "eco_alc",
-      "title": "Husa Eco Piele+Alcantara",
-      "code": "ECO-ALC-1",
-      "color": "Negru + Alcantara Negru",
-      "price": 3900,
-      "image": "assets/img/eco-alc-negru.png"
-    },
-    {
-      "id": "ECO-ALC-2",
-      "groupId": "eco_alc",
-      "title": "Husa Eco Piele+Alcantara",
-      "code": "ECO-ALC-2",
-      "color": "Negru + Alcantara Roșu",
-      "price": 3900,
-      "image": "assets/img/eco-alc-negru-rosu.png"
-    },
-    {
-      "id": "ECO-ALC-3",
-      "groupId": "eco_alc",
-      "title": "Husa Eco Piele+Alcantara",
-      "code": "ECO-ALC-3",
-      "color": "Negru + Alcantara Albastru",
-      "price": 3900,
-      "image": "assets/img/eco-alc-negru-albastru.png"
-    },
-    {
-      "id": "ECO-ALC-4",
-      "groupId": "eco_alc",
-      "title": "Husa Eco Piele+Alcantara",
-      "code": "ECO-ALC-4",
-      "color": "Gri + Alcantara Negru",
-      "price": 3900,
-      "image": "assets/img/eco-alc-gri-negru.png"
-    },
-    {
-      "id": "ECO-ALC-5",
-      "groupId": "eco_alc",
-      "title": "Husa Eco Piele+Alcantara",
-      "code": "ECO-ALC-5",
-      "color": "Bej + Alcantara Maro",
-      "price": 3900,
-      "image": "assets/img/eco-alc-bej-maro.png"
-    },
-    {
-      "id": "ECO-ALC-6",
-      "groupId": "eco_alc",
-      "title": "Husa Eco Piele+Alcantara",
-      "code": "ECO-ALC-6",
-      "color": "Alb + Alcantara Negru",
-      "price": 3900,
-      "image": "assets/img/eco-alc-alb-negru.png"
-    },
-    {
-      "id": "ECO-ALC-7",
-      "groupId": "eco_alc",
-      "title": "Husa Eco Piele+Alcantara",
-      "code": "ECO-ALC-7",
-      "color": "Negru + Alcantara Gri",
-      "price": 3900,
-      "image": "assets/img/eco-alc-negru-gri.png"
-    },
-    {
-      "id": "ECO-ALC-8",
-      "groupId": "eco_alc",
-      "title": "Husa Eco Piele+Alcantara",
-      "code": "ECO-ALC-8",
-      "color": "Maro + Alcantara Bej",
-      "price": 3900,
-      "image": "assets/img/eco-alc-maro-bej.png"
-    },
-    {
-      "id": "COV-3D-1",
-      "groupId": "covorase_3d",
-      "title": "Covorașe 3D Standard",
-      "code": "COV-3D-1",
+      "title": "Alcantara",
+      "code": "AL01",
       "color": "Negru",
       "price": 1200,
-      "image": "assets/img/Covorașe%203D%20/+%201200%20lei.jpg"
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Negru.png",
+      "description": "Huse auto din alcantara, culoare negru. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-3D-2", 
-      "groupId": "covorase_3d",
-      "title": "Covorașe 3D Premium",
-      "code": "COV-3D-2",
-      "color": "Negru Premium",
-      "price": 3500,
-      "image": "assets/img/Covorașe%203D%20/3500%20lei.jpg"
+      "id": 26,
+      "groupId": "eco_alc",
+      "title": "Alcantara",
+      "code": "AL02",
+      "color": "Negru Maro",
+      "price": 1200,
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Negru_Maro.png",
+      "description": "Huse auto din alcantara, culoare negru maro. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-L-1",
-      "groupId": "covorase_linie", 
-      "title": "Covorașe Linie",
-      "code": "COV-L-1",
-      "color": "Maro",
-      "price": 4200,
-      "image": "assets/img/Linie/4200%20lei.jpg"
+      "id": 27,
+      "groupId": "eco_alc",
+      "title": "Alcantara",
+      "code": "AL03",
+      "color": "Negru Gri Inchis",
+      "price": 1200,
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Negru_Gri_Inchis.png",
+      "description": "Huse auto din alcantara, culoare negru gri inchis. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-L-2",
-      "groupId": "covorase_linie",
-      "title": "Covorașe Linie",
-      "code": "COV-L-2", 
-      "color": "Negru + Maro",
-      "price": 4200,
-      "image": "assets/img/Linie/4200%20lei(1).jpg"
+      "id": 28,
+      "groupId": "eco_alc",
+      "title": "Alcantara",
+      "code": "AL04",
+      "color": "Maro Deschis",
+      "price": 1200,
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Maro_Deschis.png",
+      "description": "Huse auto din alcantara, culoare maro deschis. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-L-3",
-      "groupId": "covorase_linie",
-      "title": "Covorașe Linie",
-      "code": "COV-L-3",
-      "color": "Negru + Gri", 
-      "price": 4200,
-      "image": "assets/img/Linie/4200%20lei(2).jpg"
+      "id": 29,
+      "groupId": "eco_alc",
+      "title": "Alcantara",
+      "code": "AL05",
+      "color": "Negru Albastru",
+      "price": 1200,
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Negru_Albastru.png",
+      "description": "Huse auto din alcantara, culoare negru albastru. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-L-4",
-      "groupId": "covorase_linie",
-      "title": "Covorașe Linie",
-      "code": "COV-L-4",
-      "color": "Negru + Albastru",
-      "price": 4200,
-      "image": "assets/img/Linie/4200%20lei(3).jpg"
+      "id": 30,
+      "groupId": "eco_alc",
+      "title": "Alcantara",
+      "code": "AL06",
+      "color": "Ciocolata",
+      "price": 1200,
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Ciocolata.png",
+      "description": "Huse auto din alcantara, culoare ciocolata. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-L-5",
-      "groupId": "covorase_linie",
-      "title": "Covorașe Linie",
-      "code": "COV-L-5",
-      "color": "Negru + Roșu",
-      "price": 4200,
-      "image": "assets/img/Linie/4200%20lei(4).jpg"
+      "id": 31,
+      "groupId": "eco_alc",
+      "title": "Alcantara",
+      "code": "AL07",
+      "color": "Negru Ciocolata",
+      "price": 1200,
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Negru_Ciocolata.png",
+      "description": "Huse auto din alcantara, culoare negru ciocolata. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-L-6",
-      "groupId": "covorase_linie",
-      "title": "Covorașe Linie",
-      "code": "COV-L-6",
-      "color": "Negru + Bordo",
-      "price": 4200,
-      "image": "assets/img/Linie/4200%20lei(5).jpg"
+      "id": 32,
+      "groupId": "eco_alc",
+      "title": "Alcantara",
+      "code": "AL08",
+      "color": "Bej Deschis",
+      "price": 1200,
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Bej_Deschis.png",
+      "description": "Huse auto din alcantara, culoare bej deschis. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-L-7",
-      "groupId": "covorase_linie",
-      "title": "Covorașe Linie",
-      "code": "COV-L-7",
-      "color": "Negru + Portocaliu",
-      "price": 4200,
-      "image": "assets/img/Linie/4200%20lei(6).jpg"
+      "id": 33,
+      "groupId": "eco_alc",
+      "title": "Alcantara",
+      "code": "AL09",
+      "color": "Negru Bej Deschis",
+      "price": 1200,
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Negru_Bej_Deschis.png",
+      "description": "Huse auto din alcantara, culoare negru bej deschis. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-L-8",
-      "groupId": "covorase_linie",
-      "title": "Covorașe Linie",
-      "code": "COV-L-8",
-      "color": "Portocaliu + Negru",
-      "price": 4200,
-      "image": "assets/img/Linie/4200%20lei(7).jpg"
+      "id": 34,
+      "groupId": "eco_alc",
+      "title": "Alcantara",
+      "code": "AL10",
+      "color": "Negru Rosu",
+      "price": 1200,
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Negru_Rosu.png",
+      "description": "Huse auto din alcantara, culoare negru rosu. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-LA-1",
-      "groupId": "covorase_linie_alc",
-      "title": "Covorașe Linie + Alcantara",
-      "code": "COV-LA-1",
-      "color": "Negru + Alcantara",
-      "price": 4200,
-      "image": "assets/img/Linie+Alcantara/4200%20lei.jpg"
+      "id": 35,
+      "groupId": "eco_alc",
+      "title": "Alcantara",
+      "code": "AL11",
+      "color": "Negru Gri Deschis",
+      "price": 1200,
+      "image": "assets/catalogmasini/Alcantara Png/Alcantara_Negru_Gri_Deschis.png",
+      "description": "Huse auto din alcantara, culoare negru gri deschis. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-LA-2",
-      "groupId": "covorase_linie_alc",
-      "title": "Covorașe Linie + Alcantara",
-      "code": "COV-LA-2",
-      "color": "Negru + Alcantara Roșu",
-      "price": 4200,
-      "image": "assets/img/Linie+Alcantara/4200%20lei(1).jpg"
+      "id": 36,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL01",
+      "color": "Romb Negru Albastru",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_negru_albastru.png",
+      "description": "Huse auto din alcantara romb, culoare romb negru albastru. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-LA-3",
-      "groupId": "covorase_linie_alc",
-      "title": "Covorașe Linie + Alcantara",
-      "code": "COV-LA-3",
-      "color": "Negru + Alcantara Albastru",
-      "price": 4200,
-      "image": "assets/img/Linie+Alcantara/4200%20lei(2).jpg"
+      "id": 37,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL02",
+      "color": "Romb Negru Bej",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_negru_bej.png",
+      "description": "Huse auto din alcantara romb, culoare romb negru bej. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-R-1",
-      "groupId": "covorase_romb",
-      "title": "Covorașe Romb",
-      "code": "COV-R-1",
-      "color": "Negru",
-      "price": 4300,
-      "image": "assets/img/Romb/4300%20lei.jpg"
+      "id": 38,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL03",
+      "color": "Romb Negru Rosu",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_negru_rosu.png",
+      "description": "Huse auto din alcantara romb, culoare romb negru rosu. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-R-2",
-      "groupId": "covorase_romb",
-      "title": "Covorașe Romb",
-      "code": "COV-R-2",
-      "color": "Negru",
-      "price": 4300,
-      "image": "assets/img/Romb/4300%20lei(8).jpg"
+      "id": 39,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL04",
+      "color": "Romb Maro Deschis",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_maro_deschis.png",
+      "description": "Huse auto din alcantara romb, culoare romb maro deschis. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-R-3",
-      "groupId": "covorase_romb",
-      "title": "Covorașe Romb",
-      "code": "COV-R-3",
+      "id": 40,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL05",
+      "color": "Romb Negru Gri Ichis",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_negru_gri_ichis.png",
+      "description": "Huse auto din alcantara romb, culoare romb negru gri ichis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 41,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL06",
+      "color": "Romb Ciocolata",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_ciocolata.png",
+      "description": "Huse auto din alcantara romb, culoare romb ciocolata. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 42,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL07",
+      "color": "Romb Gri Deschis",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_gri_deschis.png",
+      "description": "Huse auto din alcantara romb, culoare romb gri deschis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 43,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL08",
+      "color": "Romb Bej",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_bej.png",
+      "description": "Huse auto din alcantara romb, culoare romb bej. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 44,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL09",
+      "color": "Romb Negru Ciocolata",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_negru_ciocolata.png",
+      "description": "Huse auto din alcantara romb, culoare romb negru ciocolata. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 45,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL10",
+      "color": "Romb Negru Maro",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_negru_maro.png",
+      "description": "Huse auto din alcantara romb, culoare romb negru maro. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 46,
+      "groupId": "eco_alc",
+      "title": "Alcantara Romb",
+      "code": "AL11",
+      "color": "Romb Negru",
+      "price": 1350,
+      "image": "assets/catalogmasini/rombalcantarapng/alcantara_romb_negru.png",
+      "description": "Huse auto din alcantara romb, culoare romb negru. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 47,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR01",
+      "color": "Negru Gri Deschis",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Gri_Deschis.png",
+      "description": "Huse auto din eco piele romb, culoare negru gri deschis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 48,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR02",
+      "color": "Negru Tesetura Albastra",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Tesetura_Albastra.png",
+      "description": "Huse auto din eco piele romb, culoare negru tesetura albastra. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 49,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR03",
+      "color": "Negru Bordo",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Bordo.png",
+      "description": "Huse auto din eco piele romb, culoare negru bordo. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 50,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR04",
+      "color": "Alb Negru",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Alb_Negru.png",
+      "description": "Huse auto din eco piele romb, culoare alb negru. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 51,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR05",
+      "color": "Negru Bej Deschis",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Bej_Deschis.png",
+      "description": "Huse auto din eco piele romb, culoare negru bej deschis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 52,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR06",
+      "color": "Negru Rosu",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Rosu.png",
+      "description": "Huse auto din eco piele romb, culoare negru rosu. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 53,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR07",
+      "color": "Negru Bej Inchis",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Bej_Inchis.png",
+      "description": "Huse auto din eco piele romb, culoare negru bej inchis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 54,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR08",
+      "color": "Oranj Negru",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Oranj_Negru.png",
+      "description": "Huse auto din eco piele romb, culoare oranj negru. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 55,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR09",
+      "color": "Maro Inchis",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Maro_inchis.png",
+      "description": "Huse auto din eco piele romb, culoare maro inchis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 56,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR10",
+      "color": "Negru Maro Inchis",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Maro_Inchis.png",
+      "description": "Huse auto din eco piele romb, culoare negru maro inchis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 57,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR11",
+      "color": "Bej Inchis",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Bej_Inchis.png",
+      "description": "Huse auto din eco piele romb, culoare bej inchis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 58,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR12",
+      "color": "Gri Negru",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Gri_Negru.png",
+      "description": "Huse auto din eco piele romb, culoare gri negru. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 59,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR13",
+      "color": "Negru Ciocolata Inchisa",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Ciocolata_Inchisa.png",
+      "description": "Huse auto din eco piele romb, culoare negru ciocolata inchisa. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 60,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR14",
+      "color": "Gri",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Gri.png",
+      "description": "Huse auto din eco piele romb, culoare gri. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 61,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR15",
+      "color": "Ciocolata Inchisa",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Ciocolata_Inchisa.png",
+      "description": "Huse auto din eco piele romb, culoare ciocolata inchisa. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 62,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR16",
+      "color": "Negru Gri Inchis",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Gri_Inchis.png",
+      "description": "Huse auto din eco piele romb, culoare negru gri inchis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 63,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR17",
+      "color": "Negru Alb",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Alb.png",
+      "description": "Huse auto din eco piele romb, culoare negru alb. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 64,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR18",
+      "color": "Negru Oranj",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Oranj.png",
+      "description": "Huse auto din eco piele romb, culoare negru oranj. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 65,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR19",
+      "color": "Negru Maro Deschis",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Maro_Deschis.png",
+      "description": "Huse auto din eco piele romb, culoare negru maro deschis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 66,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR20",
+      "color": "Maro Deschis",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Maro_Deschis.png",
+      "description": "Huse auto din eco piele romb, culoare maro deschis. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 67,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR21",
       "color": "Bej",
-      "price": 4300,
-      "image": "assets/img/Romb/4300%20lei(19).jpg"
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Bej.png",
+      "description": "Huse auto din eco piele romb, culoare bej. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-R-4",
-      "groupId": "covorase_romb",
-      "title": "Covorașe Romb",
-      "code": "COV-R-4",
-      "color": "Maro",
-      "price": 4300,
-      "image": "assets/img/Romb/4300%20lei(20).jpg"
+      "id": 68,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR22",
+      "color": "Negru Albastru",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Albastru.png",
+      "description": "Huse auto din eco piele romb, culoare negru albastru. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-RA-1",
-      "groupId": "covorase_romb_alc",
-      "title": "Covorașe Romb + Alcantara",
-      "code": "COV-RA-1",
-      "color": "Negru + Alcantara",
-      "price": 4300,
-      "image": "assets/img/Romb+Alcantara/4300 lei.jpg"
+      "id": 69,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR23",
+      "color": "Gri Inchis",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Gri_Inchis.png",
+      "description": "Huse auto din eco piele romb, culoare gri inchis. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-RA-2",
-      "groupId": "covorase_romb_alc",
-      "title": "Covorașe Romb + Alcantara",
-      "code": "COV-RA-2",
-      "color": "Negru + Alcantara Roșu",
-      "price": 4300,
-      "image": "assets/img/Romb+Alcantara/4300 lei(1).jpg"
+      "id": 70,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR24",
+      "color": "Negru",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru.png",
+      "description": "Huse auto din eco piele romb, culoare negru. Calitate premium, rezistente la uzura."
     },
     {
-      "id": "COV-RA-3",
-      "groupId": "covorase_romb_alc",
-      "title": "Covorașe Romb + Alcantara",
-      "code": "COV-RA-3",
-      "color": "Negru + Alcantara Albastru",
-      "price": 4300,
-      "image": "assets/img/Romb+Alcantara/4300 lei(2).jpg"
+      "id": 71,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR25",
+      "color": "Negru Tesetura Alba",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Tesetura_Alba.png",
+      "description": "Huse auto din eco piele romb, culoare negru tesetura alba. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 72,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR26",
+      "color": "Alb",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Alb.png",
+      "description": "Huse auto din eco piele romb, culoare alb. Calitate premium, rezistente la uzura."
+    },
+    {
+      "id": 73,
+      "groupId": "eco_romb",
+      "title": "Eco Piele Romb",
+      "code": "EPR27",
+      "color": "Negru Tesetura Rosie",
+      "price": 950,
+      "image": "assets/catalogmasini/EcoPieleromb/EcoPiele_Romb_Negru_Tesetura_Rosie.png",
+      "description": "Huse auto din eco piele romb, culoare negru tesetura rosie. Calitate premium, rezistente la uzura."
     }
   ]
 }
