@@ -2176,19 +2176,139 @@
       "logo": "assets/logos/skoda.svg",
       "models": [
         {
-          "name": "Octavia",
+          "name": "Fabia I sedan/hatchback/universal – bancheta spate din 2 bucăți",
           "years": "2000-2025"
         },
         {
-          "name": "Superb",
+          "name": "Fabia II hatchback (banchetă întreagă)",
           "years": "2000-2025"
         },
         {
-          "name": "Kodiaq",
+          "name": "Fabia II hatchback/universal – bancheta spate din 2 bucăți",
           "years": "2000-2025"
         },
         {
-          "name": "Karoq",
+          "name": "Fabia II Sport (RS) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Karoq (Active) fără cotieră spate din 2017 / Volkswagen Taos I din 2020 (cu tapițerie suplimentară pentru tetierele spate)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Karoq (Ambition) fără cotieră spate din 2017",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Karoq (Style) cu cotieră spate din 2017",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kodiaq (Active) fără cotieră spate din 2016",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kodiaq (Ambition, Scout) cu cotieră spate din 2016",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Kodiaq (Style) cu cotieră spate din 2016",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A5 Ambiente (banchetă întreagă)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A5 Elegance hatchback/universal – bancheta spate din 2 bucăți",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A7 Ambiente hatchback/universal fără cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A7 Elegance hatchback/universal cu cotieră spate",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A7 RS hatchback/universal (scaune față sport)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A8 (Active, Ambition) din 2019",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia A8 RS hatchback/universal (scaune față sport) din 2020",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia Tour hatchback/universal",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Octavia Tour Sport hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rapid (banchetă întreagă) din 2014",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rapid I/II – bancheta spate din 2 bucăți din 2014 / Volkswagen Polo din 2020 (fără cotieră spate)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rapid I/II – bancheta spate din 2 bucăți din 2014 / Volkswagen Polo din 2020 (cu cotieră spate)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rapid I/II Sport din 2014 / Volkswagen Polo Sport din 2020 (fără cotieră spate)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Rapid I/II Sport din 2014 / Volkswagen Polo Sport din 2020 (cu cotieră spate)",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Roomster",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb II (Elegance) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb II (Ambition) hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb II facelift hatchback",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb III (Active) (spătar pasager transformabil) din 2015",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb III (Active) (spătare față identice) din 2015",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb III (Ambition, Style) (spătar pasager transformabil) din 2015",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Superb III (Ambition, Style) (spătare față identice) din 2015",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Yeti (spătar pasager transformabil) din 2013",
+          "years": "2000-2025"
+        },
+        {
+          "name": "Yeti (spătare față identice) din 2009",
           "years": "2000-2025"
         }
       ]
