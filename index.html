@@ -385,16 +385,21 @@
                     <h2 class="text-2xl md:text-3xl font-black tracking-tight mb-6 text-center">
                         Întrebări? Scrie-ne un mesaj, iar noi îți răspundem!
                     </h2>
-                    <form id="questionForm" class="max-w-xl">
+                    <form id="questionForm" action="https://api.web3forms.com/submit" method="POST" class="max-w-xl">
+                        <input type="hidden" name="access_key" value="b01e8dd9-6bad-488f-8533-1603fedf37b6">
+                        <input type="hidden" name="subject" value="Întrebare nouă de pe AutoHuse.md">
+                        <input type="hidden" name="from_name" value="AutoHuse Contact Form">
                         <div class="flex flex-col gap-3">
                             <input 
                                 type="text" 
+                                name="question"
                                 placeholder="Întrebare"
                                 class="lg:w-[400px] px-4 py-3 rounded-2xl text-slate-900 border-0 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#F7941E]"
                                 required
                             >
                             <input 
                                 type="text" 
+                                name="contact"
                                 placeholder="Nr. Telefon/Email"
                                 class="lg:w-[400px] px-4 py-3 rounded-2xl text-slate-900 border-0 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#F7941E]"
                                 required
@@ -458,7 +463,7 @@
             <div class="max-w-[1200px] mx-auto px-4 md:px-6">
                 <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
                     <div class="flex items-center gap-4">
-                        <p class="text-xs md:text-sm text-slate-500">© 2024 Toate drepturile rezervate.</p>
+                        <p class="text-xs md:text-sm text-slate-500">© 2025 Toate drepturile rezervate.</p>
                         <div class="flex items-center gap-3">
                             <a href="#" class="w-6 h-6 text-slate-400 hover:text-[#F7941E] transition-colors">
                                 <svg fill="currentColor" viewBox="0 0 24 24">
@@ -477,6 +482,17 @@
                             </a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Creator Credit -->
+        <div class="border-t border-slate-200 py-3 bg-slate-25">
+            <div class="max-w-[1200px] mx-auto px-4 md:px-6">
+                <div class="text-center">
+                    <a href="https://landings.md/" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-slate-600 transition-colors">
+                        Creat de landings.md
+                    </a>
                 </div>
             </div>
         </div>

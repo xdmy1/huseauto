@@ -87,7 +87,7 @@
         <!-- Brand Header -->
         <section class="max-w-[1200px] mx-auto px-4 md:px-6 py-10 md:py-14">
             <div class="flex items-center gap-4 mb-8">
-                <div id="brandLogo" class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center">
+                <div id="brandLogo" class="w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center relative overflow-hidden">
                     <!-- Brand logo will be populated by JavaScript -->
                 </div>
                 <h1 id="brandName" class="text-2xl font-bold text-slate-900">
@@ -102,12 +102,6 @@
                         <label class="block text-sm font-medium text-slate-700 mb-2">Model</label>
                         <select id="modelSelect" class="w-full rounded-full border-slate-300 px-4 h-12 text-slate-900 focus:ring-2 focus:ring-[#F7941E] focus:border-transparent text-base">
                             <option value="">Selectează modelul</option>
-                        </select>
-                    </div>
-                    <div class="flex-1">
-                        <label class="block text-sm font-medium text-slate-700 mb-2">An</label>
-                        <select id="yearSelect" class="w-full rounded-full border-slate-300 px-4 h-12 text-slate-900 focus:ring-2 focus:ring-[#F7941E] focus:border-transparent text-base">
-                            <option value="">Selectează anul</option>
                         </select>
                     </div>
                     <div class="w-full sm:w-auto">
@@ -125,16 +119,21 @@
                     <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight mb-6 text-center">
                         Întrebări? Scrie-ne un mesaj, iar noi îți răspundem!
                     </h2>
-                    <form id="questionForm" class="max-w-2xl mx-auto">
+                    <form id="questionForm" action="https://api.web3forms.com/submit" method="POST" class="max-w-2xl mx-auto">
+                        <input type="hidden" name="access_key" value="b01e8dd9-6bad-488f-8533-1603fedf37b6">
+                        <input type="hidden" name="subject" value="Întrebare nouă de pe AutoHuse.md">
+                        <input type="hidden" name="from_name" value="AutoHuse Contact Form">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                             <input 
                                 type="text" 
+                                name="question"
                                 placeholder="Întrebare"
                                 class="w-full px-4 py-3 rounded-full text-slate-900 border-0 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#F7941E]"
                                 required
                             >
                             <input 
                                 type="text" 
+                                name="contact"
                                 placeholder="Nr. Telefon/Email"
                                 class="w-full px-4 py-3 rounded-full text-slate-900 border-0 focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#F7941E]"
                                 required
@@ -198,7 +197,7 @@
             <div class="max-w-[1200px] mx-auto px-4 md:px-6">
                 <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
                     <div class="flex items-center gap-4">
-                        <p class="text-xs md:text-sm text-slate-500">© 2024 Toate drepturile rezervate.</p>
+                        <p class="text-xs md:text-sm text-slate-500">© 2025 Toate drepturile rezervate.</p>
                         <div class="flex items-center gap-3">
                             <a href="#" class="w-6 h-6 text-slate-400 hover:text-[#F7941E] transition-colors">
                                 <svg fill="currentColor" viewBox="0 0 24 24">
@@ -217,6 +216,17 @@
                             </a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Creator Credit -->
+        <div class="border-t border-slate-200 py-3 bg-slate-25">
+            <div class="max-w-[1200px] mx-auto px-4 md:px-6">
+                <div class="text-center">
+                    <a href="https://landings.md/" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-400 hover:text-slate-600 transition-colors">
+                        Creat de landings.md
+                    </a>
                 </div>
             </div>
         </div>

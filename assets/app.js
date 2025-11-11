@@ -112,19 +112,15 @@ function createBrandLogo(brand) {
     const img = document.createElement('img');
     img.src = brand.logo;
     img.alt = brand.name;
-    img.style.width = '100%';
-    img.style.height = '100%';
+    img.style.width = '70%';     // Make image smaller to fit inside circle
+    img.style.height = '70%';    // Make image smaller to fit inside circle
     img.style.objectFit = 'contain';
-    img.style.padding = '6px';
     img.style.backgroundColor = 'white';
-    img.style.borderRadius = '50%';
-    img.style.maxWidth = '100%';
-    img.style.maxHeight = '100%';
-    
-    // For SVG files, ensure proper scaling
-    if (brand.logo.endsWith('.svg')) {
-        img.style.padding = '4px';
-    }
+    img.style.position = 'absolute';
+    img.style.top = '50%';
+    img.style.left = '50%';
+    img.style.transform = 'translate(-50%, -50%)';  // Center the smaller image
+    img.style.padding = '8px';
     
     // Add loading debugging
     img.onload = function() {
@@ -393,11 +389,10 @@ function initBrandPage() {
         }
     }
 
-    if (yearSelect && modelSelect) {
+    if (modelSelect) {
         modelSelect.addEventListener('change', (e) => {
             const selectedModel = e.target.value;
             setSelected({ model: selectedModel });
-            populateYears(brand, selectedModel);
         });
     }
 
@@ -406,11 +401,11 @@ function initBrandPage() {
     if (viewProductsBtn) {
         viewProductsBtn.addEventListener('click', () => {
             const selected = getSelected();
-            if (selected.brand && selected.model && selected.year) {
-                const url = `produse.html?brand=${encodeURIComponent(selected.brand)}&model=${encodeURIComponent(selected.model)}&year=${encodeURIComponent(selected.year)}`;
+            if (selected.brand && selected.model) {
+                const url = `produse.html?brand=${encodeURIComponent(selected.brand)}&model=${encodeURIComponent(selected.model)}`;
                 window.location.href = url;
             } else {
-                showToast('Te rugăm să selectezi modelul și anul', 'error');
+                showToast('Te rugăm să selectezi modelul', 'error');
             }
         });
     }
@@ -464,7 +459,7 @@ function initProductsPage() {
     const selected = getSelected();
     
     // Check if all required selections are made
-    if (!selected.brand || !selected.model || !selected.year) {
+    if (!selected.brand || !selected.model) {
         showMissingSelectionWarning();
         return;
     }
@@ -491,7 +486,7 @@ function initProductsPage() {
     // Populate filters
     populateProductFilters(brand, selected);
     
-    // Render products
+    // Render products immediately since no year selection is needed
     renderProductGroups();
     
     // Initialize order summary
@@ -508,7 +503,6 @@ function showMissingSelectionWarning() {
 
 function populateProductFilters(brand, selected) {
     const modelSelect = document.getElementById('modelSelect');
-    const yearSelect = document.getElementById('yearSelect');
     
     if (modelSelect) {
         modelSelect.innerHTML = '<option value="">Selectează modelul</option>';
@@ -525,64 +519,14 @@ function populateProductFilters(brand, selected) {
             setSelected({ model: newModel });
             setUrlParams({ model: newModel });
             
-            // Update years
-            populateProductYears(brand, newModel, selected.year);
-            
-            // Check if we have complete selection
-            if (newModel && selected.year) {
+            // Re-render products when model changes
+            if (newModel) {
                 renderProductGroups();
             }
         });
     }
-
-    if (yearSelect) {
-        populateProductYears(brand, selected.model, selected.year);
-    }
 }
 
-function populateProductYears(brand, modelName, selectedYear) {
-    const yearSelect = document.getElementById('yearSelect');
-    if (!yearSelect || !modelName) return;
-
-    const model = brand.models.find(m => m.name === modelName);
-    if (!model) return;
-
-    yearSelect.innerHTML = '<option value="">Selectează anul</option>';
-    
-    // Parse year range (e.g., "2000-2025")
-    let years = [];
-    if (model.years && typeof model.years === 'string') {
-        const yearRange = model.years.split('-');
-        if (yearRange.length === 2) {
-            const startYear = parseInt(yearRange[0]);
-            const endYear = parseInt(yearRange[1]);
-            for (let year = startYear; year <= endYear; year++) {
-                years.push(year);
-            }
-        }
-    }
-    
-    // Sort years in descending order
-    const sortedYears = years.sort((a, b) => b - a);
-    
-    sortedYears.forEach(year => {
-        const option = document.createElement('option');
-        option.value = year;
-        option.textContent = year;
-        if (year.toString() === selectedYear) option.selected = true;
-        yearSelect.appendChild(option);
-    });
-
-    yearSelect.addEventListener('change', (e) => {
-        const newYear = e.target.value;
-        setSelected({ year: newYear });
-        setUrlParams({ year: newYear });
-        
-        if (newYear && modelName) {
-            renderProductGroups();
-        }
-    });
-}
 
 function renderProductGroups() {
     const container = document.getElementById('productContainer');
@@ -669,7 +613,7 @@ function renderProductGroups() {
             
             // Click handler
             productCard.addEventListener('click', () => {
-                selectProduct(product);
+                openProductModal(product);
             });
             
             grid.appendChild(productCard);
@@ -680,29 +624,67 @@ function renderProductGroups() {
     });
 }
 
-function selectProduct(product) {
-    // Visual feedback
-    const productCards = document.querySelectorAll('[data-product-id]');
-    productCards.forEach(card => {
-        card.classList.remove('ring-2', 'ring-[#F7941E]', 'selected-product');
-    });
-    
-    const selectedCard = document.querySelector(`[data-product-id="${product.id}"]`);
-    if (selectedCard) {
-        selectedCard.classList.add('ring-2', 'ring-[#F7941E]', 'selected-product');
-    }
-    
+function openProductModal(product) {
     // Store selected product
     window.__selectedProduct = product;
     
-    // Update order summary
-    updateOrderSummary(product);
+    // Update modal content
+    updateModalContent(product);
     
-    // Show order summary
-    const orderSummary = document.getElementById('orderSummary');
-    if (orderSummary) {
-        orderSummary.classList.remove('hidden');
+    // Show modal
+    const modal = document.getElementById('productModal');
+    if (modal) {
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden'; // Prevent background scrolling
     }
+}
+
+function updateModalContent(product) {
+    const selected = getSelected();
+    
+    // Update image
+    const modalImage = document.getElementById('modalProductImage');
+    if (modalImage) {
+        if (product.image && product.image.trim() !== '') {
+            modalImage.src = product.image;
+            modalImage.alt = `${product.title} - ${product.color}`;
+        } else {
+            modalImage.src = 'assets/img/placeholder-product.png'; // Fallback image
+            modalImage.alt = 'Product placeholder';
+        }
+    }
+    
+    // Update product details
+    const elements = {
+        modalProductTitle: document.getElementById('modalProductTitle'),
+        modalProductColor: document.getElementById('modalProductColor'),
+        modalProductPrice: document.getElementById('modalProductPrice'),
+        modalSelectedBrand: document.getElementById('modalSelectedBrand'),
+        modalSelectedModel: document.getElementById('modalSelectedModel'),
+    };
+    
+    if (elements.modalProductTitle) elements.modalProductTitle.textContent = `${product.title} - ${product.code}`;
+    if (elements.modalProductColor) elements.modalProductColor.textContent = product.color;
+    if (elements.modalProductPrice) elements.modalProductPrice.textContent = `${product.price} MDL`;
+    if (elements.modalSelectedBrand) elements.modalSelectedBrand.textContent = selected.brand || '-';
+    if (elements.modalSelectedModel) elements.modalSelectedModel.textContent = selected.model || '-';
+}
+
+function closeProductModal() {
+    const modal = document.getElementById('productModal');
+    if (modal) {
+        modal.classList.add('hidden');
+        document.body.style.overflow = ''; // Restore scrolling
+    }
+    
+    // Clear phone input
+    const phoneInput = document.getElementById('modalPhoneInput');
+    if (phoneInput) {
+        phoneInput.value = '';
+    }
+    
+    // Hide phone error
+    showModalPhoneError(false);
 }
 
 function updateOrderSummary(product) {
@@ -726,48 +708,175 @@ function updateOrderSummary(product) {
 }
 
 function initOrderSummary() {
-    const orderBtn = document.getElementById('orderBtn');
-    const phoneInput = document.getElementById('phoneInput');
-    const whatsappBtn = document.getElementById('whatsappBtn');
-    
-    if (orderBtn) {
-        orderBtn.addEventListener('click', () => {
-            placeOrder();
-        });
+    // Initialize modal event listeners
+    initModalEventListeners();
+}
+
+function initModalEventListeners() {
+    // Close modal button
+    const closeBtn = document.getElementById('closeModalBtn');
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeProductModal);
     }
     
-    if (phoneInput) {
-        phoneInput.addEventListener('input', () => {
-            showPhoneError(false);
-        });
-    }
-    
-    if (whatsappBtn) {
-        whatsappBtn.addEventListener('click', () => {
-            if (window.__selectedProduct) {
-                const order = buildOrderObject();
-                openWhatsApp(order);
+    // Click outside modal to close
+    const modal = document.getElementById('productModal');
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeProductModal();
             }
         });
     }
     
+    // Escape key to close modal
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeProductModal();
+        }
+    });
+    
+    // Modal order button
+    const modalOrderBtn = document.getElementById('modalOrderBtn');
+    const modalPhoneInput = document.getElementById('modalPhoneInput');
+    const modalWhatsappBtn = document.getElementById('modalWhatsappBtn');
+    
+    if (modalOrderBtn) {
+        modalOrderBtn.addEventListener('click', () => {
+            placeModalOrder();
+        });
+    }
+    
+    if (modalPhoneInput) {
+        modalPhoneInput.addEventListener('input', () => {
+            showModalPhoneError(false);
+        });
+    }
+    
+    if (modalWhatsappBtn) {
+        modalWhatsappBtn.addEventListener('click', () => {
+            if (window.__selectedProduct) {
+                const order = buildModalOrderObject();
+                openWhatsApp(order);
+            }
+        });
+    }
 }
 
-function buildOrderObject() {
+function buildModalOrderObject() {
     const selected = getSelected();
-    const phoneInput = document.getElementById('phoneInput');
+    const phoneInput = document.getElementById('modalPhoneInput');
     const phone = phoneInput ? phoneInput.value.trim() : '';
     
     return {
         brand: selected.brand,
         model: selected.model,
-        year: selected.year,
         productTitle: window.__selectedProduct.title,
         productCode: window.__selectedProduct.code,
         color: window.__selectedProduct.color,
         price: window.__selectedProduct.price,
         phone: phone
     };
+}
+
+function placeModalOrder() {
+    if (!window.__selectedProduct) {
+        showToast('Te rugăm să selectezi un produs', 'error');
+        return;
+    }
+    
+    const phoneInput = document.getElementById('modalPhoneInput');
+    if (!phoneInput) return;
+    
+    const phone = phoneInput.value.trim();
+    
+    if (!phone) {
+        showToast('Te rugăm să introduci numărul de telefon', 'error');
+        phoneInput.focus();
+        return;
+    }
+    
+    if (!validatePhone(phone)) {
+        showModalPhoneError(true);
+        phoneInput.focus();
+        return;
+    }
+    
+    const order = buildModalOrderObject();
+    
+    // Send order via Web3Forms
+    sendOrderEmail(order);
+    
+    // Also save locally
+    saveOrder(order);
+    
+    showToast('Mulțumim! Te contactăm în curând.');
+    
+    // Close modal and clear form
+    closeProductModal();
+    
+    console.log('Order placed:', order);
+}
+
+async function sendOrderEmail(order) {
+    try {
+        const formData = new FormData();
+        formData.append('access_key', 'b01e8dd9-6bad-488f-8533-1603fedf37b6');
+        formData.append('subject', 'Comandă nouă de pe AutoHuse.md');
+        formData.append('from_name', 'AutoHuse Order System');
+        
+        // Create order message
+        const message = `
+COMANDĂ NOUĂ:
+
+📱 Telefon: ${order.phone}
+
+🚗 Mașină:
+- Brand: ${order.brand}
+- Model: ${order.model}
+
+🛋️ Produs:
+- Nume: ${order.productTitle}
+- Cod: ${order.productCode}
+- Culoare: ${order.color}
+- Preț: ${order.price} MDL
+
+---
+Comandă trimisă de pe AutoHuse.md
+        `.trim();
+        
+        formData.append('message', message);
+        formData.append('phone', order.phone);
+        formData.append('brand', order.brand);
+        formData.append('model', order.model);
+        formData.append('product', `${order.productTitle} - ${order.productCode}`);
+        formData.append('color', order.color);
+        formData.append('price', `${order.price} MDL`);
+        
+        const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+        });
+        
+        if (response.ok) {
+            console.log('✅ Order email sent successfully');
+        } else {
+            console.error('❌ Failed to send order email');
+        }
+    } catch (error) {
+        console.error('❌ Error sending order email:', error);
+    }
+}
+
+function showModalPhoneError(show) {
+    const errorDiv = document.getElementById('modalPhoneError');
+    if (errorDiv) {
+        if (show) {
+            errorDiv.classList.remove('hidden');
+        } else {
+            errorDiv.classList.add('hidden');
+        }
+    }
 }
 
 function placeOrder() {
