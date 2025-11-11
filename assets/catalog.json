@@ -2552,7 +2552,7 @@
     {
       "id": "dodge",
       "name": "DODGE",
-      "logo": "assets/logos/dodge.svg",
+      "logo": "assets/logos/Dodge.svg",
       "models": [
         {
           "name": "Caliber",
@@ -2654,7 +2654,7 @@
     {
       "id": "peugeot",
       "name": "PEUGEOT",
-      "logo": "assets/logos/peugeot.svg",
+      "logo": "assets/logos/Peugeot.svg",
       "models": [
         {
           "name": "107",
@@ -2836,7 +2836,7 @@
     {
       "id": "geely",
       "name": "Geely",
-      "logo": "assets/logos/geely.svg",
+      "logo": "assets/logos/Geely.svg",
       "models": [
         {
           "name": "Atlas I",
@@ -2891,7 +2891,7 @@
     {
       "id": "chery",
       "name": "Chery",
-      "logo": "assets/logos/chery.svg",
+      "logo": "assets/logos/Chery.svg",
       "models": [
         {
           "name": "Amulet (A15)",
