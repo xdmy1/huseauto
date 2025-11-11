@@ -103,6 +103,12 @@ async function loadCatalog() {
 }
 
 function createBrandLogo(brand) {
+    // Check if brand has logo
+    if (!brand.logo) {
+        console.warn('No logo defined for brand:', brand.name);
+        return createFallbackLogo(brand);
+    }
+    
     const img = document.createElement('img');
     img.src = brand.logo;
     img.alt = brand.name;
@@ -122,14 +128,17 @@ function createBrandLogo(brand) {
     
     // Add loading debugging
     img.onload = function() {
-        console.log('Logo loaded successfully:', brand.name, brand.logo);
+        console.log('✅ Logo loaded:', brand.name, brand.logo);
     };
     
     // Fallback to generated SVG if image fails to load
     img.onerror = function() {
-        console.warn('Failed to load logo for:', brand.name, brand.logo);
+        console.error('❌ Failed to load logo:', brand.name, brand.logo);
+        console.log('Attempting fallback for:', brand.name);
         const fallbackSvg = createFallbackLogo(brand);
-        this.parentNode.replaceChild(fallbackSvg, this);
+        if (this.parentNode) {
+            this.parentNode.replaceChild(fallbackSvg, this);
+        }
     };
     
     return img;

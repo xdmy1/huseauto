@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Logos</title>
+</head>
+<body>
+    <h1>Logo Test</h1>
+    
+    <h2>Direct Image Tags</h2>
+    <p>BMW: <img src="assets/logos/BMW.svg" width="50" alt="BMW"></p>
+    <p>Toyota: <img src="assets/logos/toyota.svg" width="50" alt="Toyota"></p>
+    <p>Audi: <img src="assets/logos/Audi-Logo_2016.svg" width="50" alt="Audi"></p>
+    
+    <h2>Test Catalog Loading</h2>
+    <div id="catalog-test"></div>
+    
+    <script>
+        // Test catalog loading
+        fetch('assets/catalog.json')
+            .then(response => response.json())
+            .then(catalog => {
+                console.log('Catalog loaded:', catalog.brands.length, 'brands');
+                
+                const testDiv = document.getElementById('catalog-test');
+                catalog.brands.slice(0, 5).forEach(brand => {
+                    console.log('Brand:', brand.name, 'Logo:', brand.logo);
+                    
+                    const div = document.createElement('div');
+                    div.style.margin = '10px';
+                    div.innerHTML = `
+                        <strong>${brand.name}</strong><br>
+                        Logo path: ${brand.logo || 'NO LOGO'}<br>
+                        <img src="${brand.logo}" width="50" style="border: 1px solid red;" 
+                             onload="console.log('✅ Loaded: ${brand.name}')" 
+                             onerror="console.log('❌ Failed: ${brand.name}', this.src)">
+                    `;
+                    testDiv.appendChild(div);
+                });
+            })
+            .catch(error => {
+                console.error('Failed to load catalog:', error);
+                document.getElementById('catalog-test').innerHTML = 'ERROR: ' + error;
+            });
+    </script>
+</body>
+</html>
