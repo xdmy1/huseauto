@@ -2551,7 +2551,7 @@
     },
     {
       "id": "dodge",
-      "name": "DODGE",
+      "name": "Dodge",
       "logo": "assets/logos/dodge.svg",
       "models": [
         {
@@ -2653,7 +2653,7 @@
     },
     {
       "id": "peugeot",
-      "name": "PEUGEOT",
+      "name": "Peugeot",
       "logo": "assets/logos/peugeot.svg",
       "models": [
         {

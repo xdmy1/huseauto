@@ -317,7 +317,7 @@ function renderBrandGrid() {
     
     brandsToShow.forEach(brand => {
         const brandCard = document.createElement('div');
-        brandCard.className = 'w-20 h-20 md:w-32 md:h-32 lg:w-36 lg:h-36 bg-white rounded-full shadow-md flex items-center justify-center hover:ring-2 ring-[#F7941E] cursor-pointer transition-all transform hover:scale-105';
+        brandCard.className = 'w-24 h-24 md:w-40 md:h-40 lg:w-44 lg:h-44 bg-white rounded-full shadow-md flex items-center justify-center hover:ring-2 ring-[#F7941E] cursor-pointer transition-all transform hover:scale-105';
         
         const logo = createBrandLogo(brand);
         brandCard.appendChild(logo);
